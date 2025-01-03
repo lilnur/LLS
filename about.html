@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Language Class System</title>
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- chartjs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  
+  <body>
+
+    <!-- header -->
+    <div class="container-fluid p-4 my-0 bg-dark text-white text-center">
+        <div class="title">Lingua Learn School</div>
+     </div>
+
+    <!-- navigation -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+            <img src="img/language.png" alt="Logo" width="40px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About LLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="application.html">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="learning.html">Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                </ul>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="darkModeToggle"/>
+                    <label class="form-check-label" for="darkModeToggle" id="themeLabel">Dark Mode</label>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </nav>
+
+    <!-- content -->
+    <div class="container-fluid position-relative p-0">
+        <div class="bg-image">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-md-2 text-center">
+                    </div>
+                    <div class="col-md-10 text-white">
+                            <h1 class="text-white">Our Mission & Vision</h1>
+                            <p class="text-white">__________________________________________</p>
+                            <h4 class="mb-4 text-white">Lingua Learn School</h4>
+
+                            <div class="text-end mt-2 px-4">
+                                <button type="button" class="btn btn-primary"><i class="fa-solid fa-school px-2"></i>Apply Now</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- the core values -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 mb-3 mt-5">
+                <h1>The Essence of LLS</h1>
+                <h5>_________________________</h5>
+            </div>
+
+            <div class="col-sm-8 mb-3 mt-5">
+                <div class=" justify my-2">
+                        <h3>Our Mission</h3>
+                        <p>To provide high-quality, engaging language instruction that empowers students to communicate confidently and fluently in a globalized world.</p>
+                        <p>To create a vibrant and supportive learning environment where students can discover the joy of language learning and develop a lifelong passion for communication.</p>
+                        <p>To bridge cultural divides through language education, fostering mutual respect and understanding among people from diverse backgrounds.</p>
+                </div>
+
+                <div class=" justify my-2 mt-4">
+                    <h3>Our Vision</h3>
+                    <p>To empower individuals to connect with the world through language, enriching their lives and broadening their horizons.</p>
+                </div>
+
+                <div class=" justify my-2 mt-4">
+                    <h3>Our Objectives</h3>
+                    <p>To provide high-quality language instruction to students of all ages and backgrounds.</p>
+                    <p>To equip individuals with the language skills they need to succeed personally and professionally.</p>
+                    <p>To make language learning accessible and enjoyable for everyone.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- what drives us w image -->
+    <div class="container mb-4 mt-4">
+        <div class="row">
+            <h1 class="text-center">What Drives Us at LLS</h1>
+            <h5 class="text-center">_________________________________</h5>
+        </div>
+        <div class="row text-center">
+            <!-- First Image -->
+            <div class="col-md-4">
+                <img src="img/book.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Embracing a continuos learning journey.</p>
+            </div>
+
+            <!-- Second Image -->
+            <div class="col-md-4">
+                <img src="img/worker.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Recognizing and addressing the unique needs and learning styles of each student.</p>
+            </div>
+
+            <!-- Third Image -->
+            <div class="col-md-4">
+                <img src="img/kindness.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Creating a welcoming and inclusive environment.</p>
+            </div>
+
+        <div class="row text-center">
+            <!-- First Image -->
+            <div class="col-md-4">
+                <img src="img/teacher.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Upholding the highest standards of professionalism and ethical conduct.</p>
+            </div>
+
+            <!-- Second Image -->
+            <div class="col-md-4">
+                <img src="img/help.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Cultivating strong and trusting relationships.</p>
+            </div>
+
+            <!-- Third Image -->
+            <div class="col-md-4">
+                <img src="img/webinar.png" class="custom-img img-fluid" alt="Book" tabindex="0">
+                <p class="hidden-text text-bg-light">Striving for constant growth and development in our teaching methods and curriculum.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- learning cultures w image -->
+    <div class="container mb-4 mt-4">
+        <div class="row">
+            <h1 class="text-center">Our Learning Culture</h1>
+            <h5 class="text-center">_________________________________</h5>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-2 bg-body-tertiary border-2 shadow">
+                    <div class="row g-0 align-items-center">
+                        
+                        <div class="col-md-4 text-center">
+                            <img src="img/learn.png" class="img-fluid p-3" alt="learn">
+                        </div>
+    
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-text text-center">
+                                    Peer Learning: Encourage students to learn from each other through group activities, language exchange partners, and peer feedback.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-2 bg-body-tertiary border-2 shadow">
+                    <div class="row g-0 align-items-center">
+                        
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-text text-center">
+                                    Technology Integration: Utilize interactive technology, such as language learning apps, virtual reality, and online resources, to enhance the learning experience.
+                                </h5>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4 text-center">
+                            <img src="img/fam.png" class="img-fluid p-3" alt="learn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card my-2 bg-body-tertiary border-2 shadow">
+                    <div class="row g-0 align-items-center">
+                        
+                        <div class="col-md-4 text-center">
+                            <img src="img/teach.png" class="img-fluid p-3" alt="learn">
+                        </div>
+    
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-text text-center">
+                                    Personalized Learning: Tailor learning plans to individual student needs and learning styles.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="title">Lingua Learn School</div>
+                    <div class="addtitle">Language Class System</div>
+                    <p class="justify">Your Journey to Fluency Starts Here.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div>
+                            <p><i class="fa-solid fa-inbox px-4"></i>lingualearnmsia@gmail.com</p>
+                            <p><i class="fa-solid fa-map-location-dot px-4"></i>Presint 15, 62050 Putrajaya Wilayah Persekutuan</p>
+                            <p><i class="fa-brands fa-instagram px-4"></i>lingualearn.my</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Lingua Learn School. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
+     </footer>
+
+    <!-- bootstrap js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- darkmode script -->
+     <script>
+        function setTheme(theme){
+            document.documentElement.setAttribute("data-bs-theme", theme);
+            localStorage.setItem("theme", theme);
+            document.getElementById("themeLabel").innerText =
+                theme === "dark" ? "Dark Mode On" : "Dark Mode Off";
+        }
+
+        document
+            .getElementById("darkModeToggle")
+            .addEventListener("change", function (event) {
+                if (event.target.checked) {
+                    setTheme ("dark");
+                } else {
+                    setTheme ("");
+                }
+            });
+
+            window.onload = function () {
+                let savedTheme = localStorage.getItem ("theme");
+                if (savedTheme) {
+                    setTheme(savedTheme);
+                    if (savedTheme === "dark") {
+                        document.getElementById ("darkModeToggle").checked = true;
+                    }
+                }
+
+            };
+        
+     </script>
+  </body>
+</html>

@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Language Class System</title>
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- chartjs -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  
+  <body>
+
+    <!-- header -->
+    <div class="container-fluid p-4 my-0 bg-dark text-white text-center">
+        <div class="title">Lingua Learn School</div>
+     </div>
+
+    <!-- navigation -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container">
+            <img src="img/language.png" alt="Logo" width="40px">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About LLS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="application.html">Apply Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="learning.html">Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                </ul>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="darkModeToggle"/>
+                    <label class="form-check-label" for="darkModeToggle" id="themeLabel">Dark Mode</label>
+                </div>
+              </div>
+            </div>
+          </nav>
+      </nav>
+
+    <!-- content -->
+    <!-- what drives us -->
+    <div class="row mb-4 mt-4 px-4">
+        <h1>What Drives Us at LLS</h1>
+        <h5>________________</h5>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 mb-3 mt-5">
+                <h2 style="color: #61bfea">Our Learning Vision</h2>
+                <p>To cultivate a lifelong love of language learning that empowers students to achieve their personal and professional goals.</p>
+            </div>
+
+            <div class="col-sm-8 mb-3 mt-5">
+                <div class=" justify my-2">
+                    <div style="background-color: #b9e5f9; padding: 20px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                        <h2 class="mb-4 text-dark">Our Learning Culture</h2>
+                        <h5 class="text-dark"><i class="fa-solid fa-circle px-2" style="font-size: 0.6em; color: #0077b6;"></i>Collaborative & Supportive</h5>
+                        <p class="text-dark">Peer Learning: Encourage students to learn from each other through group activities, language exchange partners, and peer feedback.</p>
+                        <p class="text-dark">Supportive Community: Cultivate a welcoming and supportive learning environment where students feel comfortable taking risks and making mistakes.</p>
+
+                        <h5 class="text-dark"><i class="fa-solid fa-circle px-2" style="font-size: 0.6em; color: #0077b6;"></i>Innovative and Engaging</h5>
+                        <p class="text-dark">Technology Integration: Utilize interactive technology, such as language learning apps, virtual reality, and online resources, to enhance the learning experience.</p>
+                        <p class="text-dark">Experiential Learning: Offer opportunities for students to engage in real-life language use through cultural immersion activities, guest speakers, and community outreach.</p>
+
+                        <h5 class="text-dark"><i class="fa-solid fa-circle px-2" style="font-size: 0.6em; color: #0077b6;"></i>Student-Centered</h5>
+                        <p class="text-dark">Personalized Learning: Tailor learning plans to individual student needs and learning styles.</p>
+                        <p class="text-dark">Student Voice: Encourage student feedback and actively involve students in the learning process.</p>
+
+                        <h5 class="text-dark"><i class="fa-solid fa-circle px-2" style="font-size: 0.6em; color: #0077b6;"></i>Cultural Awareness</h5>
+                        <p class="text-dark">Cross-Cultural Exchange: Promote understanding and appreciation of different cultures through language learning.</p>
+                        <p class="text-dark">Global Citizenship: Encourage students to use their language skills to connect with people from different backgrounds and contribute to a global community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- image gap -->
+    <div class="container-fluid position-relative p-0">
+        <div style="background-image: url('img/trent.jpg'); 
+                    background-size: cover; 
+                    background-position: center; 
+                    background-repeat: no-repeat; 
+                    min-height: 300px;">
+        </div>
+    </div>
+    
+    <!-- languages -->
+    <div class="container mb-4 mt-4">
+        <div class="row">
+            <h1 class="text-center">Languages</h1>
+            <h5 class="text-center">_____________</h5>
+        </div>
+
+        <div class="container my-4">
+            <div class="row justify-content-center">
+                <!-- Card 1 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/korean.png" class="rounded-circle img-fluid" alt="Korean" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Korean Language</h6>
+                            <p>2m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/french.png" class="rounded-circle img-fluid" alt="French" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">French Language</h6>
+                            <p>1.8m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/japanese.png" class="rounded-circle img-fluid" alt="Japanese" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Japanese Language</h6>
+                            <p>1.8m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/spanish.png" class="rounded-circle img-fluid" alt="Spanish" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Spanish Language</h6>
+                            <p>1.5m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/german.png" class="rounded-circle img-fluid" alt="German" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">German Language</h6>
+                            <p>1.4m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/italian.png" class="rounded-circle img-fluid" alt="Italian" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Italian Language</h6>
+                            <p>1.2m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/hindi.png" class="rounded-circle img-fluid" alt="Hindi" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Hindi Language</h6>
+                            <p>1.2m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/chinese.png" class="rounded-circle img-fluid" alt="Chinese" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Chinese Language</h6>
+                            <p>1.1m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/russian.png" class="rounded-circle img-fluid" alt="Russsian" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Russian Language</h6>
+                            <p>1.1m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="col-md-2">
+                    <div class="card my-2 bg-body-tertiary border-2 shadow">
+                        <div class="card-body text-center">
+                            <img src="img/portuguese.png" class="rounded-circle img-fluid" alt="Portuguese" style="width: 100px; height: 100px; object-fit: cover;">
+                            <h6 class="my-3">Portuguese Language</h6>
+                            <p>1m learners</p>
+                            <button type="button" class="btn btn-primary btn-sm"><i class="fa-solid fa-graduation-cap px-1"></i>Start</button>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <!-- learning modes -->
+    <div class="container mb-4 mt-4">
+        <div class="row">
+            <h1 class="text-center">Learning Modes</h1>
+            <h5 class="text-center">_________________________</h5>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="row g-0 align-items-center">
+                        
+                        <!-- facetoface -->
+                        <div class="col-md-4 text-center">
+                            <img src="img/learn.png" class="img-fluid p-3" alt="learn">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-text">
+                                    Face-to-Face Learning Mode
+                                </h3>
+                                <p style="text-align: justify">Our face-to-face learning mode offers a dynamic and interactive learning experience. You'll benefit from direct interaction with experienced instructors, receive personalized feedback, and engage in lively discussions with fellow learners. This immersive environment fosters a deeper understanding of the language and provides opportunities for cultural exchange and community building.</p>
+                            </div>
+                            <div class="text-end mt-2 px-4">
+                                <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square px-2"></i>Apply Now</button>
+                            </div>
+                        </div>
+
+                        <!-- online -->
+                        <div class="col-md-4 text-center">
+                            <img src="img/online.png" class="img-fluid p-3" alt="learn">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-text">
+                                    Online Learning Mode
+                                </h3>
+                                <p style="text-align: justify">Our online learning mode provides flexibility and convenience for busy learners. Experience interactive lessons, engaging multimedia, and personalized feedback from qualified instructors, all from the comfort of your own home. Our platform offers a dynamic and interactive learning environment that allows you to connect with fellow learners and immerse yourself in the language at your own pace.</p>
+                            </div>
+                            <div class="text-end mt-2 px-4">
+                                <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square px-2"></i>Apply Now</button>
+                            </div>
+                        </div>
+
+                        <!-- hybrid -->
+                        <div class="col-md-4 text-center">
+                            <img src="img/hybrid.png" class="img-fluid p-3" alt="learn">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-text">
+                                    Hybrid Learning Mode
+                                </h3>
+                                <p style="text-align: justify">Our hybrid learning mode combines the best of both worlds: the flexibility of online learning with the personalized interaction of in-person classes. This blended approach allows you to learn at your own pace while benefiting from regular face-to-face sessions with your instructor and fellow learners. You'll enjoy the convenience of online resources and the valuable in-person interaction that enhances language acquisition and cultural exchange.</p>
+                            </div>
+                            <div class="text-end mt-2 px-4">
+                                <button type="button" class="btn btn-outline-primary"><i class="fa-solid fa-pen-to-square px-2"></i>Apply Now</button>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <footer class="footer mt-auto py-3 bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="title">Lingua Learn School</div>
+                    <div class="addtitle">Language Class System</div>
+                    <p class="justify">Your Journey to Fluency Starts Here.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div>
+                            <p><i class="fa-solid fa-inbox px-4"></i>lingualearnmsia@gmail.com</p>
+                            <p><i class="fa-solid fa-map-location-dot px-4"></i>Presint 15, 62050 Putrajaya Wilayah Persekutuan</p>
+                            <p><i class="fa-brands fa-instagram px-4"></i>lingualearn.my</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+            <div class="container">
+                <p>&copy; <span id="currentYear"></span> Lingua Learn School. All Rights Reserved.</p>
+            </div>
+
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
+     </footer>
+
+    <!-- bootstrap js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- darkmode script -->
+     <script>
+        function setTheme(theme){
+            document.documentElement.setAttribute("data-bs-theme", theme);
+            localStorage.setItem("theme", theme);
+            document.getElementById("themeLabel").innerText =
+                theme === "dark" ? "Dark Mode On" : "Dark Mode Off";
+        }
+
+        document
+            .getElementById("darkModeToggle")
+            .addEventListener("change", function (event) {
+                if (event.target.checked) {
+                    setTheme ("dark");
+                } else {
+                    setTheme ("");
+                }
+            });
+
+            window.onload = function () {
+                let savedTheme = localStorage.getItem ("theme");
+                if (savedTheme) {
+                    setTheme(savedTheme);
+                    if (savedTheme === "dark") {
+                        document.getElementById ("darkModeToggle").checked = true;
+                    }
+                }
+
+            };
+        
+     </script>
+  </body>
+</html>
